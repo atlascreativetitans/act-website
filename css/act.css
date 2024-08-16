@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #000000 !important;
+	font-size: 16px;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+    "wdth" 100;
+	}
+
+body h1 {
+    font-size: 2.7rem;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+    "wdth" 100;
+	}
+
+body h2 {
+    font-size: 1.5rem;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+    "wdth" 100;
+	}
+
+body p {
+    font-size: 0.6rem;
+	color: #696969;
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+    "wdth" 100;
+	}
+
+.row {
+    margin-top: 30px;
+}
+
+.main-text {
+    max-width: 700px; /* Maximum width of the div */
+    margin-left: 10%;
+    overflow: hidden; /* Hide content that overflows the container */
+}
+
+/* Google Font 
+ <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*/
